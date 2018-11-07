@@ -109,33 +109,31 @@ bot.on("message", function(message) {
 	}
 })
 
-
 bot.on('message', (message) =>  {
 
 if(message.author.bot) return;
 
   if(message.content == '-pingtest') {
 
-      message.channel.sendMessage('!ping')
-      message.channel.sendMessage('-ping')
-      message.channel.sendMessage('..ping')
-      message.channel.sendMessage('<ping')
-      message.channel.sendMessage('>ping')
-      message.channel.sendMessage('>>ping')
-      message.channel.sendMessage('?ping')
-      message.channel.sendMessage(';ping')
-      message.channel.sendMessage('+ping')
-     message.channel.sendMessage('[ping')
-     message.channel.sendMessage('/ping')
-     message.channel.sendMessage('=ping')
+      message.channel.send('!ping')
+      message.channel.send('-ping')
+      message.channel.send('..ping')
+      message.channel.send('<ping')
+      message.channel.send('>ping')
+      message.channel.send('>>ping')
+      message.channel.send('?ping')
+      message.channel.send(';ping')
+      message.channel.send('+ping')
+     message.channel.send('[ping')
+     message.channel.send('/ping')
+     message.channel.send('=ping')
 
 
 }
 
 }
 
-);   
-
+); 
 
 bot.on('message', (message) =>  {
 
@@ -143,25 +141,24 @@ if(message.author.bot) return;
 
   if(message.content == '-botspreflix') {
 
-      message.channel.sendMessage('!ping = Wearedevs BOT/Rhythme BOT')
-      message.channel.sendMessage('-ping = Funtimes Helper (Funtimes)')
-      message.channel.sendMessage('..ping = IDK')
-      message.channel.sendMessage('<ping = Anti Tard (Aquatic)')
-      message.channel.sendMessage('>ping = Aquatic Bot (Aquatic)')
-      message.channel.sendMessage('>>ping = Vortex GAY')
-      message.channel.sendMessage('?ping = Dyno BOT')
-      message.channel.sendMessage(';ping = Unknown (Computerboy)')
-      message.channel.sendMessage('+ping = FTXbot (FTXProgramming)')
-     message.channel.sendMessage('[ping = Lemon (IDK)')
-     message.channel.sendMessage('/ping = IDK')
+      message.channel.send('!ping = Wearedevs BOT/Rhythme BOT')
+      message.channel.send('-ping = Funtimes Helper (Funtimes)')
+      message.channel.send('..ping = IDK')
+      message.channel.send('<ping = Anti Tard (Aquatic)')
+      message.channel.send('>ping = Aquatic Bot (Aquatic)')
+      message.channel.send('>>ping = Vortex GAY')
+      message.channel.send('?ping = Dyno BOT')
+      message.channel.send(';ping = Unknown (Computerboy)')
+      message.channel.send('+ping = FTXbot (FTXProgramming)')
+     message.channel.send('[ping = Lemon (IDK)')
+     message.channel.send('/ping = IDK')
 
 
 }
 
 }
 
-);   
-
+);
 
 
 
