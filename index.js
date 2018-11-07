@@ -182,4 +182,4 @@ bot.on('message', (message) =>  {
 
 
 
-bot.login('NTAzNzExMDQyOTEyNzgwMjkx.Dq_xeg.pslTFVJ4jNj_EYC1PDMn2ZivNWI')
+bot.login('process.evn.token')
